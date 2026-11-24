@@ -1,0 +1,20 @@
+{
+  "notification_title": "Ειδοποίηση",
+  "friend_request_received_title": "Νέο αίτημα φιλίας!",
+  "friend_request_received_description": "Ο/Η {{displayName}} θέλει να γίνει φίλος/φίλη σας",
+  "friend_request_accepted_title": "Η αίτηση φιλίας έγινε αποδεκτή!",
+  "friend_request_accepted_description": "Ο/Η {{displayName}} δέχτηκε το αίτημα φιλίας σας",
+  "badge_received_title": "Πήρες ένα νέο σήμα!",
+  "review_upvote_title": "Η κριτική σας για το {{gameTitle}} έλαβε θετικές ψήφους!",
+  "review_upvote_description": "Η κριτική σας έλαβε {{count}} νέες θετικές ψήφους",
+  "review_answer_title": "Νέα απάντηση στην κριτική σας για το {{gameTitle}}",
+  "review_answer_description": "Ο/Η {{displayName}} απάντησε στην κριτική σας",
+  "review_answer_upvote_title": "Η απάντησή σας στο {{gameTitle}} έλαβε θετικές ψήφους!",
+  "review_answer_upvote_description": "Η απάντησή σας έλαβε {{count}} νέες θετικές ψήφους",
+  "retroachievements_credentials_restored_title": "Το RetroAchievements επανασυνδέθηκε",
+  "retroachievements_credentials_restored_description": "Τα στοιχεία σύνδεσής σας στο RetroAchievements λειτουργούν και πάλι.",
+  "retroachievements_credentials_invalid_title": "Το RetroAchievements χρειάζεται προσοχή",
+  "retroachievements_credentials_invalid_description": "Τα στοιχεία σύνδεσής σας στο RetroAchievements δεν είναι πλέον έγκυρα. Παρακαλούμε να συνδέσετε ξανά τον λογαριασμό σας.",
+  "retroachievements_sync_failed_title": "Αποτυχία συγχρονισμού του RetroAchievements",
+  "retroachievements_sync_failed_description": "Δεν καταφέραμε να συγχρονίσουμε την πρόοδό σας στα RetroAchievements για το {{gameTitle}}. Παρακαλώ δοκιμάστε ξανά αργότερα."
+}

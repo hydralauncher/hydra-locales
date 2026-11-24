@@ -1,0 +1,10 @@
+{
+  "notification_title": "通知",
+  "friend_request_received_title": "新しいフレンドリクエスト！",
+  "friend_request_received_description": "{{displayName}} がフレンドになりたがっています",
+  "friend_request_accepted_title": "フレンドリクエストが承認されました！",
+  "friend_request_accepted_description": "{{displayName}} があなたのフレンドリクエストを承認しました",
+  "badge_received_title": "新しいバッジを獲得しました！",
+  "review_upvote_title": "{{gameTitle}} のレビューが高評価を受けました！",
+  "review_upvote_description": "レビューが {{count}} 件の新しい高評価を受けました"
+}

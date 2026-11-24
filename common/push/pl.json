@@ -1,0 +1,20 @@
+{
+  "notification_title": "Powiadomienie",
+  "friend_request_received_title": "Nowe zaproszenie do znajomych!",
+  "friend_request_received_description": "{{displayName}} chce zostać Twoim znajomym",
+  "friend_request_accepted_title": "Zaproszenie do znajomych zaakceptowane!",
+  "friend_request_accepted_description": "{{displayName}} zaakceptował(a) Twoje zaproszenie do znajomych",
+  "badge_received_title": "Otrzymano nową odznakę!",
+  "review_upvote_title": "Twoja recenzja gry {{gameTitle}} otrzymała głosy pozytywne!",
+  "review_upvote_description": "Twoja recenzja otrzymała {{count}} nowych głosów pozytywnych",
+  "review_answer_title": "Nowa odpowiedź na Twoją recenzję gry {{gameTitle}}",
+  "review_answer_description": "{{displayName}} odpowiedział(a) na Twoją recenzję",
+  "review_answer_upvote_title": "Twoja odpowiedź dotycząca gry {{gameTitle}} otrzymała głosy pozytywne!",
+  "review_answer_upvote_description": "Twoja odpowiedź otrzymała {{count}} nowych głosów pozytywnych",
+  "retroachievements_credentials_restored_title": "Ponownie połączono RetroAchievements",
+  "retroachievements_credentials_restored_description": "Dane logowania do RetroAchievements znów działają.",
+  "retroachievements_credentials_invalid_title": "RetroAchievements wymaga uwagi",
+  "retroachievements_credentials_invalid_description": "Dane logowania do RetroAchievements są już nieprawidłowe. Połącz konto ponownie.",
+  "retroachievements_sync_failed_title": "Synchronizacja RetroAchievements nie powiodła się",
+  "retroachievements_sync_failed_description": "Nie udało się zsynchronizować postępów RetroAchievements dla gry {{gameTitle}}. Spróbuj ponownie później."
+}

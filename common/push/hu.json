@@ -1,0 +1,10 @@
+{
+  "notification_title": "Értesítés",
+  "friend_request_received_title": "Új barátkérelem!",
+  "friend_request_received_description": "{{displayName}} a barátod szeretne lenni",
+  "friend_request_accepted_title": "Barátkérelem elfogadva!",
+  "friend_request_accepted_description": "{{displayName}} elfogadta a barátkérelmed",
+  "badge_received_title": "Kaptál egy új kitűzőt!",
+  "review_upvote_title": "A véleményed a(z) {{gameTitle}} játékhoz felpont-ot kapott!",
+  "review_upvote_description": "A véleményed {{count}} új felpontot kapott"
+}

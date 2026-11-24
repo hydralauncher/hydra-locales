@@ -1,0 +1,20 @@
+{
+  "notification_title": "Notificação",
+  "friend_request_received_title": "Novo pedido de amizade!",
+  "friend_request_received_description": "{{displayName}} quer ser teu amigo",
+  "friend_request_accepted_title": "Pedido de amizade aceite!",
+  "friend_request_accepted_description": "{{displayName}} aceitou o teu pedido de amizade",
+  "badge_received_title": "Recebeste um novo distintivo!",
+  "review_upvote_title": "A tua avaliação de {{gameTitle}} recebeu votos positivos!",
+  "review_upvote_description": "A tua avaliação recebeu {{count}} novos votos positivos",
+  "review_answer_title": "Nova resposta à tua avaliação de {{gameTitle}}",
+  "review_answer_description": "{{displayName}} respondeu à tua avaliação",
+  "review_answer_upvote_title": "A tua resposta a {{gameTitle}} recebeu votos positivos!",
+  "review_answer_upvote_description": "A tua resposta recebeu {{count}} novos votos positivos",
+  "retroachievements_credentials_restored_title": "RetroAchievements religado",
+  "retroachievements_credentials_restored_description": "As tuas credenciais do RetroAchievements estão a funcionar novamente.",
+  "retroachievements_credentials_invalid_title": "RetroAchievements precisa de atenção",
+  "retroachievements_credentials_invalid_description": "As tuas credenciais do RetroAchievements já não são válidas. Volta a ligar a tua conta.",
+  "retroachievements_sync_failed_title": "Falha na sincronização do RetroAchievements",
+  "retroachievements_sync_failed_description": "Não foi possível sincronizar o teu progresso do RetroAchievements em {{gameTitle}}. Tenta novamente mais tarde."
+}

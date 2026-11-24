@@ -1,0 +1,25 @@
+{
+  "name": "@hydralauncher/locales",
+  "version": "0.1.0",
+  "description": "Translations shared across Hydra projects",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydralauncher/hydra-locales.git"
+  },
+  "files": [
+    "common"
+  ],
+  "exports": {
+    "./common/*": "./common/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "format": "node scripts/validate.mjs --fix"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "notification_title": "Notifikasi",
+  "friend_request_received_title": "Permintaan pertemanan baru!",
+  "friend_request_received_description": "{{displayName}} ingin berteman dengan kamu!",
+  "friend_request_accepted_title": "Permintaan pertemanan diterima!",
+  "friend_request_accepted_description": "{{displayName}} menerima permintaan pertemanan kamu!",
+  "badge_received_title": "Kamu mendapatkan badge baru!",
+  "review_upvote_title": "Ulasan kamu untuk {{gameTitle}} mendapatkan upvote!",
+  "review_upvote_description": "Ulasan kamu menerima {{count}} upvote baru!",
+  "review_answer_title": "Balasan baru untuk ulasan kamu tentang {{gameTitle}}",
+  "review_answer_description": "{{displayName}} membalas ulasan kamu",
+  "review_answer_upvote_title": "Balasan kamu untuk {{gameTitle}} mendapatkan upvote!",
+  "review_answer_upvote_description": "Balasan kamu menerima {{count}} upvote baru!",
+  "retroachievements_credentials_restored_title": "RetroAchievements terhubung kembali",
+  "retroachievements_credentials_restored_description": "Kredensial RetroAchievements kamu kembali berfungsi.",
+  "retroachievements_credentials_invalid_title": "RetroAchievements memerlukan perhatian kamu!",
+  "retroachievements_credentials_invalid_description": "Kredensial RetroAchievements kamu sudah tidak valid. Harap hubungkan ulang akun kamu.",
+  "retroachievements_sync_failed_title": "Sinkronisasi RetroAchievements gagal",
+  "retroachievements_sync_failed_description": "Kami tidak dapat menyinkronkan progres RetroAchievements kamu untuk {{gameTitle}}. Silakan untuk mencoba lagi nanti."
+}

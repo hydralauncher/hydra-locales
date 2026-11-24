@@ -1,0 +1,10 @@
+{
+  "notification_title": "Notifica",
+  "friend_request_received_title": "Nuova richiesta di amicizia!",
+  "friend_request_received_description": "{{displayName}} vuole essere tuo amico",
+  "friend_request_accepted_title": "Richiesta di amicizia accettata!",
+  "friend_request_accepted_description": "{{displayName}} ha accettato la tua richiesta di amicizia",
+  "badge_received_title": "Hai ricevuto un nuovo badge!",
+  "review_upvote_title": "La tua recensione per {{gameTitle}} ha ricevuto degli upvote!",
+  "review_upvote_description": "La tua recensione ha ricevuto {{count}} nuovi upvote"
+}

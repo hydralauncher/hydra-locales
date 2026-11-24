@@ -1,0 +1,20 @@
+{
+  "notification_title": "Thông báo",
+  "friend_request_received_title": "Lời mời kết bạn mới!",
+  "friend_request_received_description": "{{displayName}} muốn kết bạn với bạn",
+  "friend_request_accepted_title": "Lời mời kết bạn đã được chấp nhận!",
+  "friend_request_accepted_description": "{{displayName}} đã chấp nhận lời mời kết bạn của bạn",
+  "badge_received_title": "Bạn nhận được huy hiệu mới!",
+  "review_upvote_title": "Đánh giá của bạn về {{gameTitle}} đã nhận được lượt ủng hộ!",
+  "review_upvote_description": "Đánh giá của bạn nhận được {{count}} lượt ủng hộ mới",
+  "review_answer_title": "Có phản hồi mới cho đánh giá của bạn về {{gameTitle}}",
+  "review_answer_description": "{{displayName}} đã phản hồi đánh giá của bạn",
+  "review_answer_upvote_title": "Phản hồi của bạn về {{gameTitle}} đã nhận được lượt ủng hộ!",
+  "review_answer_upvote_description": "Phản hồi của bạn nhận được {{count}} lượt ủng hộ mới",
+  "retroachievements_credentials_restored_title": "Đã kết nối lại RetroAchievements",
+  "retroachievements_credentials_restored_description": "Thông tin đăng nhập RetroAchievements của bạn đã hoạt động trở lại.",
+  "retroachievements_credentials_invalid_title": "RetroAchievements cần được chú ý",
+  "retroachievements_credentials_invalid_description": "Thông tin đăng nhập RetroAchievements của bạn không còn hợp lệ. Vui lòng kết nối lại tài khoản.",
+  "retroachievements_sync_failed_title": "Đồng bộ RetroAchievements thất bại",
+  "retroachievements_sync_failed_description": "Chúng tôi không thể đồng bộ tiến trình RetroAchievements của bạn cho {{gameTitle}}. Vui lòng thử lại sau."
+}

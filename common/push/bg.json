@@ -1,0 +1,14 @@
+{
+  "notification_title": "Уведомление",
+  "friend_request_received_title": "Нова покана за приятелство!",
+  "friend_request_received_description": "{{displayName}} иска да ви бъде приятел",
+  "friend_request_accepted_title": "Поканата за приятелство е приета!",
+  "friend_request_accepted_description": "{{displayName}} прие вашата покана за приятелство",
+  "badge_received_title": "Получихте нова значка!",
+  "review_upvote_title": "Отзивът ви за {{gameTitle}} получи положителни гласове!",
+  "review_upvote_description": "Отзивът ви получи {{count}} нови положителни гласове",
+  "review_answer_title": "Нов отговор на отзива ви за {{gameTitle}}",
+  "review_answer_description": "{{displayName}} отговори на отзива ви",
+  "review_answer_upvote_title": "Отговорът ви за {{gameTitle}} получи положителни гласове!",
+  "review_answer_upvote_description": "Отговорът ви получи {{count}} нови положителни гласове"
+}

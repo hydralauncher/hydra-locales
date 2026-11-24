@@ -1,0 +1,10 @@
+{
+  "notification_title": "Obvestilo",
+  "friend_request_received_title": "Nova prijateljska zahteva!",
+  "friend_request_received_description": "{{displayName}} želi biti vaš prijatelj",
+  "friend_request_accepted_title": "Zahteva za prijateljstvo sprejeta!",
+  "friend_request_accepted_description": "{{displayName}} je sprejel vašo zahtevo",
+  "badge_received_title": "Prejeli ste novo značko!",
+  "review_upvote_title": "Vaša recenzija za {{gameTitle}} je dobila glasove!",
+  "review_upvote_description": "Vaša recenzija je dobila {{count}} novih glasov"
+}
