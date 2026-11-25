@@ -9,10 +9,12 @@
     "url": "git+https://github.com/hydralauncher/hydra-locales.git"
   },
   "files": [
-    "common"
+    "common",
+    "languages.json"
   ],
   "exports": {
     "./common/*": "./common/*",
+    "./languages.json": "./languages.json",
     "./package.json": "./package.json"
   },
   "scripts": {
