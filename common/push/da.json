@@ -40,5 +40,7 @@
   "chat_message_images_other": "Sendte {{count}} billeder",
   "chat_message_body": "Sendte dig en besked",
   "official_message_title": "Hydra",
-  "official_message_body": "Du har en ny besked fra Hydra"
+  "official_message_body": "Du har en ny besked fra Hydra",
+  "alert_new_message": "Ny besked",
+  "alert_new_notification": "Ny notifikation"
 }

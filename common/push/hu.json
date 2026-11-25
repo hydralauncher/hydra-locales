@@ -40,5 +40,7 @@
   "chat_message_images_other": "Küldött {{count}} képet",
   "chat_message_body": "Üzenetet küldött neked",
   "official_message_title": "Hydra",
-  "official_message_body": "Új üzeneted érkezett a Hydrától"
+  "official_message_body": "Új üzeneted érkezett a Hydrától",
+  "alert_new_message": "Új üzenet",
+  "alert_new_notification": "Új értesítés"
 }

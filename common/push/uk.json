@@ -56,5 +56,7 @@
   "chat_message_images_other": "Надіслано зображень: {{count}}",
   "chat_message_body": "Вам нове повідомлення",
   "official_message_title": "Hydra",
-  "official_message_body": "У вас нове повідомлення від Hydra"
+  "official_message_body": "У вас нове повідомлення від Hydra",
+  "alert_new_message": "Нове повідомлення",
+  "alert_new_notification": "Нове сповіщення"
 }

@@ -56,5 +56,7 @@
   "chat_message_images_other": "Poslal je {{count}} slik",
   "chat_message_body": "Poslal vam je sporočilo",
   "official_message_title": "Hydra",
-  "official_message_body": "Imate novo sporočilo od Hydre"
+  "official_message_body": "Imate novo sporočilo od Hydre",
+  "alert_new_message": "Novo sporočilo",
+  "alert_new_notification": "Novo obvestilo"
 }

@@ -32,5 +32,7 @@
   "chat_message_images_other": "{{count}} 枚の画像を送信しました",
   "chat_message_body": "メッセージを送りました",
   "official_message_title": "Hydra",
-  "official_message_body": "Hydra から新しいメッセージが届きました"
+  "official_message_body": "Hydra から新しいメッセージが届きました",
+  "alert_new_message": "新しいメッセージ",
+  "alert_new_notification": "新しい通知"
 }

@@ -40,5 +40,7 @@
   "chat_message_images_other": "{{count}} ta rasm yubordi",
   "chat_message_body": "Sizga xabar yubordi",
   "official_message_title": "Hydra",
-  "official_message_body": "Hydra'dan yangi xabaringiz bor"
+  "official_message_body": "Hydra'dan yangi xabaringiz bor",
+  "alert_new_message": "Yangi xabar",
+  "alert_new_notification": "Yangi bildirishnoma"
 }

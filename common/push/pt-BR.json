@@ -48,5 +48,7 @@
   "chat_message_images_other": "Enviou {{count}} imagens",
   "chat_message_body": "Enviou uma mensagem",
   "official_message_title": "Hydra",
-  "official_message_body": "Você tem uma nova mensagem da Hydra"
+  "official_message_body": "Você tem uma nova mensagem da Hydra",
+  "alert_new_message": "Nova mensagem",
+  "alert_new_notification": "Nova notificação"
 }

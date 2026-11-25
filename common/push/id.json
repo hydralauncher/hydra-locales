@@ -32,5 +32,7 @@
   "chat_message_images_other": "Mengirim {{count}} gambar",
   "chat_message_body": "Mengirimimu pesan",
   "official_message_title": "Hydra",
-  "official_message_body": "Kamu punya pesan baru dari Hydra"
+  "official_message_body": "Kamu punya pesan baru dari Hydra",
+  "alert_new_message": "Pesan baru",
+  "alert_new_notification": "Notifikasi baru"
 }

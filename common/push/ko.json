@@ -32,5 +32,7 @@
   "chat_message_images_other": "이미지 {{count}}장을 보냈습니다",
   "chat_message_body": "메시지를 보냈습니다",
   "official_message_title": "Hydra",
-  "official_message_body": "Hydra에서 새 메시지가 도착했습니다"
+  "official_message_body": "Hydra에서 새 메시지가 도착했습니다",
+  "alert_new_message": "새 메시지",
+  "alert_new_notification": "새 알림"
 }

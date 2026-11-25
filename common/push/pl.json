@@ -56,5 +56,7 @@
   "chat_message_images_other": "Wysłał(a) {{count}} zdjęcia",
   "chat_message_body": "Wysłał(a) Ci wiadomość",
   "official_message_title": "Hydra",
-  "official_message_body": "Masz nową wiadomość od Hydry"
+  "official_message_body": "Masz nową wiadomość od Hydry",
+  "alert_new_message": "Nowa wiadomość",
+  "alert_new_notification": "Nowe powiadomienie"
 }

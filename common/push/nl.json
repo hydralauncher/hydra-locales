@@ -40,5 +40,7 @@
   "chat_message_images_other": "Heeft {{count}} afbeeldingen gestuurd",
   "chat_message_body": "Heeft je een bericht gestuurd",
   "official_message_title": "Hydra",
-  "official_message_body": "Je hebt een nieuw bericht van Hydra"
+  "official_message_body": "Je hebt een nieuw bericht van Hydra",
+  "alert_new_message": "Nieuw bericht",
+  "alert_new_notification": "Nieuwe melding"
 }
