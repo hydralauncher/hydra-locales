@@ -98,24 +98,26 @@ const readLanguages = () => {
   return [...seen].filter((code) => checkLanguageCode(LANGUAGES_FILE, code));
 };
 
-const resolveSource = (source, key) => {
-  if (key in source) {
-    return { reference: source[key], isPluralForm: PLURAL_SUFFIX.test(key) };
-  }
+const pluralFormOf = (source, key) => {
   const match = PLURAL_SUFFIX.exec(key);
-  if (!match) return null;
-  const [, base] = match;
-  const reference = source[`${base}_other`] ?? source[`${base}_one`];
-  return reference === undefined ? null : { reference, isPluralForm: true };
+  if (!match || !(`${match[1]}_other` in source)) return null;
+  return { base: match[1], category: match[2] };
+};
+
+const resolveSource = (source, key) => {
+  const pluralForm = pluralFormOf(source, key);
+  if (key in source) return { reference: source[key], isPluralForm: pluralForm !== null };
+  if (!pluralForm) return null;
+  return { reference: source[`${pluralForm.base}_other`], isPluralForm: true };
 };
 
 const checkCatalog = (file, code, catalog, source) => {
   const categories = new Set(pluralCategoriesOf(code));
   for (const [key, value] of Object.entries(catalog)) {
     if (typeof value !== "string") continue;
-    const match = PLURAL_SUFFIX.exec(key);
-    if (match && !categories.has(match[2])) {
-      report(file, key, `"${match[2]}" is not a plural form in ${code}`);
+    const pluralForm = pluralFormOf(source, key);
+    if (pluralForm && !categories.has(pluralForm.category)) {
+      report(file, key, `"${pluralForm.category}" is not a plural form in ${code}`);
     }
     if (code === SOURCE_LANGUAGE) continue;
     const resolved = resolveSource(source, key);
@@ -140,9 +142,9 @@ const checkCompleteness = (file, code, catalog, source) => {
   const categories = pluralCategoriesOf(code);
   const pluralBases = new Set();
   for (const key of Object.keys(source)) {
-    const match = PLURAL_SUFFIX.exec(key);
-    if (match) {
-      pluralBases.add(match[1]);
+    const pluralForm = pluralFormOf(source, key);
+    if (pluralForm) {
+      pluralBases.add(pluralForm.base);
     } else if (!(key in catalog)) {
       report(file, key, `missing, every language in languages.json needs every key in ${SOURCE_LANGUAGE}.json`);
     }
@@ -171,6 +173,7 @@ const findCatalogFolders = (directory) => {
 };
 
 const languages = readLanguages();
+const hasLanguageList = languages.length > 0;
 const listed = new Set(languages);
 const folders = findCatalogFolders(root);
 
@@ -194,12 +197,12 @@ for (const directory of folders) {
     const catalog = code === SOURCE_LANGUAGE ? source : readCatalog(file);
     checkedFiles += 1;
     if (!catalog || !checkLanguageCode(file, code)) continue;
-    if (!listed.has(code)) {
+    if (hasLanguageList && !listed.has(code)) {
       report(file, null, `${code} is not in languages.json, add it there or remove this file`);
       continue;
     }
     checkCatalog(file, code, catalog, source);
-    checkCompleteness(file, code, catalog, source);
+    if (hasLanguageList) checkCompleteness(file, code, catalog, source);
   }
 }
 
