@@ -32,5 +32,7 @@
   "chat_message_images_other": "Đã gửi {{count}} hình ảnh",
   "chat_message_body": "Đã gửi cho bạn một tin nhắn",
   "official_message_title": "Hydra",
-  "official_message_body": "Bạn có tin nhắn mới từ Hydra"
+  "official_message_body": "Bạn có tin nhắn mới từ Hydra",
+  "alert_new_message": "Tin nhắn mới",
+  "alert_new_notification": "Thông báo mới"
 }

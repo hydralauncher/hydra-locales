@@ -56,5 +56,7 @@
   "chat_message_images_other": "Poslal(a) {{count}} obrázků",
   "chat_message_body": "Poslal(a) vám zprávu",
   "official_message_title": "Hydra",
-  "official_message_body": "Máte novou zprávu od Hydry"
+  "official_message_body": "Máte novou zprávu od Hydry",
+  "alert_new_message": "Nová zpráva",
+  "alert_new_notification": "Nové oznámení"
 }

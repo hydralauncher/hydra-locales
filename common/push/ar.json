@@ -72,5 +72,7 @@
   "chat_message_images_other": "أرسل {{count}} صورة",
   "chat_message_body": "أرسل لك رسالة",
   "official_message_title": "Hydra",
-  "official_message_body": "لديك رسالة جديدة من Hydra"
+  "official_message_body": "لديك رسالة جديدة من Hydra",
+  "alert_new_message": "رسالة جديدة",
+  "alert_new_notification": "إشعار جديد"
 }

@@ -40,5 +40,7 @@
   "chat_message_images_other": "{{count}} görsel gönderdi",
   "chat_message_body": "Size bir mesaj gönderdi",
   "official_message_title": "Hydra",
-  "official_message_body": "Hydra'dan yeni bir mesajınız var"
+  "official_message_body": "Hydra'dan yeni bir mesajınız var",
+  "alert_new_message": "Yeni mesaj",
+  "alert_new_notification": "Yeni bildirim"
 }

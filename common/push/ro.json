@@ -48,5 +48,7 @@
   "chat_message_images_other": "A trimis {{count}} de imagini",
   "chat_message_body": "Ți-a trimis un mesaj",
   "official_message_title": "Hydra",
-  "official_message_body": "Ai un mesaj nou de la Hydra"
+  "official_message_body": "Ai un mesaj nou de la Hydra",
+  "alert_new_message": "Mesaj nou",
+  "alert_new_notification": "Notificare nouă"
 }

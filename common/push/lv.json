@@ -48,5 +48,7 @@
   "chat_message_images_other": "Nosūtīja {{count}} attēlus",
   "chat_message_body": "Nosūtīja jums ziņu",
   "official_message_title": "Hydra",
-  "official_message_body": "Jums ir jauna ziņa no Hydra"
+  "official_message_body": "Jums ir jauna ziņa no Hydra",
+  "alert_new_message": "Jauna ziņa",
+  "alert_new_notification": "Jauns paziņojums"
 }

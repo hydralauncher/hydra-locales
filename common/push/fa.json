@@ -40,5 +40,7 @@
   "chat_message_images_other": "{{count}} تصویر فرستاد",
   "chat_message_body": "برای شما پیامی فرستاد",
   "official_message_title": "Hydra",
-  "official_message_body": "یک پیام جدید از Hydra دارید"
+  "official_message_body": "یک پیام جدید از Hydra دارید",
+  "alert_new_message": "پیام جدید",
+  "alert_new_notification": "اعلان جدید"
 }

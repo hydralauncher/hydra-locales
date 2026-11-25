@@ -1,6 +1,6 @@
 {
   "name": "@hydralauncher/locales",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Translations shared across Hydra projects",
   "license": "MIT",
   "type": "module",

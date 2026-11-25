@@ -40,5 +40,7 @@
   "chat_message_images_other": "Saatis {{count}} pilti",
   "chat_message_body": "Saatis sulle sõnumi",
   "official_message_title": "Hydra",
-  "official_message_body": "Sul on uus sõnum Hydralt"
+  "official_message_body": "Sul on uus sõnum Hydralt",
+  "alert_new_message": "Uus sõnum",
+  "alert_new_notification": "Uus teavitus"
 }

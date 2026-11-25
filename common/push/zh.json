@@ -32,5 +32,7 @@
   "chat_message_images_other": "发送了 {{count}} 张图片",
   "chat_message_body": "给您发送了一条消息",
   "official_message_title": "Hydra",
-  "official_message_body": "您有一条来自 Hydra 的新消息"
+  "official_message_body": "您有一条来自 Hydra 的新消息",
+  "alert_new_message": "新消息",
+  "alert_new_notification": "新通知"
 }
